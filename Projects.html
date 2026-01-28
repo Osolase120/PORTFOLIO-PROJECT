@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECTS</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="Projects.css">
+</head>
+<body>
+
+  <header>
+    <div>
+    <a class="logo" href="./Portfolio.html">OSOLASE</a>
+    </div>
+
+    <nav>
+        <ul class="hamburger-menu">
+            <li><a href="./Portfolio.html">Home</a></li>
+            <li><a href="./Resume.html">Resume</a></li>
+            <li><a href="./Projects.html">Projects</a></li>
+            <li><a href="./Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hamburger">
+    <img class="open" src="./Images&icons/icon-menu.svg" alt="" onclick="show()" id="openBtn">
+    <img class="close" src="./Images&icons/icon-close.svg" alt="" onclick="closed()" id="closeBtn">
+    </div>
+</header>
+
+    <section class="project" id="projects">
+        <h2>Projects</h2>
+      
+        <div class="projects-grid">
+          <!-- Project Card -->
+          <article class="project-card">
+            <img 
+              src="images/weather-app.png" 
+              alt="Weather App project preview"
+            />
+      
+            <div class="project-content">
+              <h3>Weather App</h3>
+              <p>
+                A responsive weather application that allows users to search
+                for current weather conditions using a public API.
+              </p>
+      
+              <ul class="tech-stack">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>API</li>
+              </ul>
+      
+              <div class="project-links">
+                <button><a href="#" target="_blank" rel="noopener">Live Demo</a></button>
+                <button><a href="#" target="_blank" rel="noopener">Source Code</a></button>
+              </div>
+            </div>
+          </article>
+      
+          <!-- Repeat project-card for more projects -->
+        </div>
+      </section>
+
+      <section class="Contact">
+        <p>Let's build something together</p>
+
+        <button><a href="./Contact.html">Contact me</a></button>
+      </section>
+
+      <footer>
+        <p>&copy 2026 OSOLASE. All rights reserved.</p>
+    </footer>
+      
+    
+</body>
+</html>
