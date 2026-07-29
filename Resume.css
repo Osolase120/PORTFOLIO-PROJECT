@@ -54,7 +54,6 @@ nav ul li a {
     font-weight: 700;
     text-decoration: none;
     color: #000;
-    /* padding: 0 30px; */
 }
 
 .hamburger { 
@@ -62,10 +61,6 @@ nav ul li a {
     top: 18px;
     right: 40px;
 }
-
-/* .open { 
-    display: block;
-} */
 
 .close {
     position: relative;
@@ -132,10 +127,6 @@ nav ul li a {
     display: flex;
     flex-direction: column;
 }
-
-/* .Links a {
-    color: #000;
-} */
 
 .Nigeria {
     position: relative;
@@ -228,7 +219,6 @@ nav ul li a {
 .Edcation-section {
     position: relative;
     top: 27rem;
-    /* text-align: center; */
 }
 
 .Edcation-section h2 {
@@ -242,7 +232,6 @@ nav ul li a {
 
 .Edcation-section ul li {
     padding: 10px 40px;
-    /* text-align-last: center; */
 }
 
 footer {
@@ -267,11 +256,7 @@ footer {
         display: flex;
         flex-direction: row;
     }
-    
-    /* .Links a {
-        color: #000;
-    } */
-    
+        
     .Nigeria {
         position: relative;
     }
@@ -317,7 +302,6 @@ footer {
     .Edcation-section {
         position: relative;
         top: 25rem;
-        /* text-align: center; */
     }
 }
 
@@ -355,7 +339,6 @@ footer {
     font-weight: 700;
     text-decoration: none;
     color: #000;
-    /* padding: 0 30px; */
 }
 
     .open { 
@@ -385,9 +368,6 @@ footer {
         flex-direction: row;
     }
     
-    /* .Links a {
-        color: #000;
-    } */
     
     .Nigeria {
         position: relative;
@@ -430,7 +410,6 @@ footer {
         margin-top: 15px;
         padding: 5px 300px;
     }
-    
           
     .project-section ul li {
         margin-top: 7px;
@@ -438,10 +417,8 @@ footer {
         list-style: none;
     }
     
-    
     .Edcation-section ul li {
         padding: 10px 300px;
-        /* text-align-last: center; */
     }
     
     footer {
